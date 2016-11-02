@@ -1,0 +1,131 @@
+body {
+	margin: 0 auto;
+	background-color: #3F3737;
+	width: 97%;
+}
+
+header {
+	background-color:black;
+	color: #BA1919;
+	border: #BA1919 20px;
+	border-style: inset;
+	padding: 60px;
+	margin: 10px;	
+	text-align: center;
+	font-size: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+	color: #BFBFBF;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #BFBFBF;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #BA1919;
+}
+
+#img {
+	display: block;
+	margin: auto;
+	float: center;
+	}
+
+nav {
+	width: auto;
+}
+
+nav ul {
+	line-height: 23px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav ul li {
+	display: inline-block;
+    float: left;
+	padding: 0px 72px;
+	border: solid red 2px;
+}
+
+nav ul li a {
+    display: block;
+    color: #BA1919;
+    padding: 15px 16px;
+    text-decoration: none;
+	font-size: 20px;
+}
+
+a {
+	font-size: 20px;
+	text-decoration: underline;
+	color: red;
+}
+
+h1 {
+    color: #BA1919;
+    text-align: justify;
+	font-size: 35px;
+}
+
+
+h2 {
+	color: #BA1919;
+	font-size: 34px;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	color: #BA1919;
+	font-size: 20px;
+}
+
+section .par_color {
+	font-size: 25px;
+	color: #BA1919;
+}
+
+section {
+	display: block;
+	background-color: black;
+    float: left;
+    padding: 3%;
+    width: 64%;
+	border: #BA1919 15px;
+	border-style: double;
+}
+
+aside {
+	display: block;
+	text-align: left;
+	border: #BA1919 15px;
+	border-style: double;
+    float: right;
+    width: 25%;
+    background-color: black;
+}
+
+footer{
+	display: block;
+	clear: both;
+    width: 94%;
+    padding: 3%;
+	margin: auto;
+    background-color: #BA1919;
+    color: black;
+    text-align: center;
+	font-size: 25px;
+	border: black 14px;
+	border-style: double;
+}
